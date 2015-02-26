@@ -23,10 +23,14 @@ function create() {
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
     
-    var text = "- phaser -\n with a sprinkle of \n pixi dust.";
-    var style = { font: "65px Arial", fill: "#ff0044", align: "center" };
+    var text = "Take a seat Mr. Player.\nLet's get started.";
+    var style = { font: "40px Arial", fill: "#ff0044", align: "center" };
 
     var t = game.add.text(game.world.centerX-300, 0, text, style);
+    
+    var buttonText1 = "Take a seat";
+    
+    var bt1 = game.add.text(60, 400, buttonText1, style)
 
 }
 
