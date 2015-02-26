@@ -136,7 +136,7 @@ function actionOnClick () {
     }
     if (step === 3)
     {
-      text.setText("What on your resume would you say makes you most qualified for this job?");  
+      text.setText("What on your resume would you say makes\nyou most qualified for this job?");  
       buttonText1.setText("My IQ of 160 makes me very intelligent and overqualified for this job.");
       buttonText2.setText("My leadership skills in college can \neasily transition towards synergy in the workplace.");
       buttonText3.setText("My synergetic attitude makes me right for this job.");
