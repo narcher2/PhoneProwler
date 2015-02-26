@@ -50,4 +50,29 @@ function out() {
 function actionOnClick () {
 
     step += 1;
+    
+    if (step == 1)
+    {
+      var text = "If you were a fruit or vegetable, what would you be, and why?";   
+    }
+    if (step == 2)
+    {
+      var text = "Why do you have interest in this company?";   
+    }
+    if (step == 3)
+    {
+      var text = "What on your resume would you say makes you most qualified for this job?";   
+    }
+    if (step == 4)
+    {
+      var text = "What is your biggest weakness?";   
+    }
+    if (step == 5)
+    {
+      var text = "Where do you see yourself in 5 years?";   
+    }
+    if (step == 6)
+    {
+      var text = "Kirk or Picard?";   
+    }
 }
