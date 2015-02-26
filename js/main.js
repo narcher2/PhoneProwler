@@ -17,7 +17,7 @@ function create() {
 
     background = game.add.tileSprite(0, 0, 800, 600, 'background');
 
-    button = game.add.button(game.world.centerX - 44, 400, 'button', actionOnClick, this, 2, 1, 0);
+    button = game.add.button(44, 400, 'button', actionOnClick, this, 2, 1, 0);
 
     button.onInputOver.add(over, this);
     button.onInputOut.add(out, this);
