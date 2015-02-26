@@ -25,10 +25,19 @@ function create() {
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
     
-    var text = "Take a seat Mr. Player.\nLet's get started.";
+        text = game.add.text(game.world.centerX, game.world.centerY, "- You have clicked -\n0 times !", {
+        font: "40px Arial",
+        fill: "#ff0044",
+        align: "center"
+    });
+
+    text.anchor.setTo(0.5, 0.5);
+    
+    /*var text = "Take a seat Mr. Player.\nLet's get started.";
     var style = { font: "40px Arial", fill: "#ff0044", align: "center" };
 
     var t = game.add.text(game.world.centerX-300, 0, text, style);
+    */
     
     var buttonText1 = "Take a seat";
     var buttonStyle = {font: "20px Arial", fill: "#000000", align: "left" };
@@ -58,13 +67,13 @@ function update() {
 function updateText() {
 
     step++;
-    t.setText("- You have clicked -\n" + step + " times !");
+    text.setText("- You have clicked -\n" + step + " times !");
 
 }
 
 function actionOnClick () {
     
-    t.setText("Test.");
+    text.setText("Test.");
     //updateText();
     /*
     if (step == 1)
