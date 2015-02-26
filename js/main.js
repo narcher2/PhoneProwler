@@ -39,6 +39,7 @@ function create() {
 
 function up() {
     console.log('button up', arguments);
+    updateText();
 }
 
 function over() {
@@ -57,9 +58,9 @@ function update() {
 
 function updateText() {
 
-    count++;
+    step++;
 
-    t.setText("- You have clicked -\n" + count + " times !");
+    t.setText("- You have clicked -\n" + stepp + " times !");
 
 }
 
