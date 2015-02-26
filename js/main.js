@@ -1,4 +1,4 @@
-var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create });
+var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update});
 
 function preload() {
 
@@ -49,11 +49,21 @@ function out() {
     console.log('button out');
 }
 
-function actionOnClick () {
+function update() {
 
-    step++;
-    
-    text.setText("- You have clicked -\n" + step + " times !");
+    game.input.onDown.addOnce(updateText, this);
+
+}
+
+function updateText() {
+
+    count++;
+
+    text.setText("- You have clicked -\n" + count + " times !");
+
+}
+
+function actionOnClick () {
     
     if (step == 1)
     {
