@@ -39,7 +39,6 @@ function create() {
 
 function up() {
     console.log('button up', arguments);
-    updateText();
 }
 
 function over() {
@@ -65,6 +64,8 @@ function updateText() {
 }
 
 function actionOnClick () {
+    
+    updateText();
     
     if (step == 1)
     {
