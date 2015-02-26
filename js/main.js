@@ -82,4 +82,3 @@ function out() {
 -    game.input.onDown.addOnce(updateText, this);
 -
 -}
-}
