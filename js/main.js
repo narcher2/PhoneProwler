@@ -76,3 +76,10 @@ function over() {
 function out() {
     console.log('button out');
 }
+
+-function update() {
+-
+-    game.input.onDown.addOnce(updateText, this);
+-
+-}
+}
