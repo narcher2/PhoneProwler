@@ -1,4 +1,4 @@
-var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update });
+var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create });
 
 function preload() {
 
@@ -9,6 +9,7 @@ function preload() {
 
 var button;
 var background;
+var step;
 
 function create() {
     
@@ -41,7 +42,7 @@ function up() {
     
     step++;
     
-    if (step == 1)
+    /*if (step == 1)
     {
       text.setText("If you were a fruit or vegetable, what would you be, and why?");   
     }
@@ -65,6 +66,7 @@ function up() {
     {
       text.setText("Kirk or Picard?");   
     }
+    */
 }
 
 function over() {
