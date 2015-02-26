@@ -29,8 +29,9 @@ function create() {
     var t = game.add.text(game.world.centerX-300, 0, text, style);
     
     var buttonText1 = "Take a seat";
+    var buttonStyle = {font: "20px Arial", fill: "#000000", align: "left" };
     
-    var bt1 = game.add.text(60, 400, buttonText1, style)
+    var bt1 = game.add.text(60, 400, buttonText1, buttonStyle)
 
 }
 
