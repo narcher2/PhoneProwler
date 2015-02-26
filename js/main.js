@@ -22,6 +22,11 @@ function create() {
     button.onInputOver.add(over, this);
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
+    
+    var text = "- phaser -\n with a sprinkle of \n pixi dust.";
+    var style = { font: "65px Arial", fill: "#ff0044", align: "center" };
+
+    var t = game.add.text(game.world.centerX-300, 0, text, style);
 
 }
 
