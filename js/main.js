@@ -1,4 +1,4 @@
-var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create });
+var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create });
 
 function preload() {
 
@@ -11,17 +11,12 @@ var button;
 var background;
 
 function create() {
-    
+
     game.stage.backgroundColor = '#182d3b';
 
     background = game.add.tileSprite(0, 0, 800, 600, 'background');
 
-    var text = "It's nice to meet you Mr. Johnson.\nTake a seat, and we can get started.";
-    var style = { font: "44px Arial", fill: "#ff0044", align: "center" };
-
-    var t = game.add.text(game.world.centerX-300, 0, text, style);
-    
-    button = game.add.button(game.world.centerX - 32, 400, 'button', actionOnClick, this, 2, 1, 0);
+    button = game.add.button(game.world.centerX - 95, 400, 'button', actionOnClick, this, 2, 1, 0);
 
     button.onInputOver.add(over, this);
     button.onInputOut.add(out, this);
@@ -41,3 +36,8 @@ function out() {
     console.log('button out');
 }
 
+function actionOnClick () {
+
+    background.visible =! background.visible;
+
+}
