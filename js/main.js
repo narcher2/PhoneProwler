@@ -9,9 +9,10 @@ function preload() {
 
 var button;
 var background;
-var step = 0;
 
 function create() {
+    
+    step = 0;
 
     game.stage.backgroundColor = '#182d3b';
 
@@ -49,7 +50,7 @@ function out() {
 
 function actionOnClick () {
 
-    step += 1;
+    step++;
     
     if (step == 1)
     {
