@@ -64,6 +64,7 @@ function updateText() {
 
 function actionOnClick () {
     
+    t.setText("Test.");
     //updateText();
     /*
     if (step == 1)
