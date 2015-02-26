@@ -9,6 +9,7 @@ function preload() {
 
 var button;
 var background;
+var step;
 
 function create() {
     
