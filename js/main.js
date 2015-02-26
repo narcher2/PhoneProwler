@@ -96,6 +96,6 @@ function actionOnClick () {
     }
     if (step = 6)
     {
-      text.setText("Kirk or Picard?");   
+      text.setText("Kirk or Picard?" + step);   
     }
 }
