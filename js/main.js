@@ -2,7 +2,7 @@ var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload:
 
 function preload() {
 
-    game.load.spritesheet('button', 'assets/buttons/button_sprite_sheet.png', 512, 48);
+    game.load.spritesheet('button', 'assets/button_sprite_sheet.png', 512, 48);
 
 }
 
