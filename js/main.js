@@ -58,7 +58,6 @@ function update() {
 function updateText() {
 
     step++;
-
     t.setText("- You have clicked -\n" + step + " times !");
 
 }
