@@ -51,7 +51,7 @@ function out() {
 
 function update() {
 
-    game.input.onDown.addOnce(updateText, text);
+    game.input.onDown.addOnce(updateText, this);
 
 }
 
@@ -59,7 +59,7 @@ function updateText() {
 
     count++;
 
-    text.setText("- You have clicked -\n" + count + " times !");
+    t.setText("- You have clicked -\n" + count + " times !");
 
 }
 
