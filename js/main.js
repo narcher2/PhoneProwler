@@ -9,11 +9,11 @@ function preload() {
 
 var button;
 var background;
-var step;
+//var step;
 
 function create() {
     
-    step = 0;
+    //step = 0;
 
     game.stage.backgroundColor = '#182d3b';
 
@@ -40,7 +40,7 @@ function create() {
 function up() {
     console.log('button up', arguments);
     
-    step++;
+    //step++;
     
     /*if (step == 1)
     {
