@@ -4,14 +4,21 @@ function preload() {
 
     game.load.spritesheet('button', 'assets/button_sprite_sheet.png', 512, 48);
     game.load.image('background','assets/background.png');
+    game.load.audio('chopin', 'assets/Prelude15.mp3');
+
 
 }
 
 var button;
 var background;
 var step;
+var music;
 
 function create() {
+    
+    music = game.add.audio('chopin');
+
+    music.play();
     
     step = 0;
 
