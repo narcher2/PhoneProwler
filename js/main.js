@@ -25,7 +25,7 @@ function create() {
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
     
-        text = game.add.text(game.world.centerX, game.world.centerY, "- You have clicked -\n0 times !", {
+        text = game.add.text(game.world.centerX-300, 0 "Take a seat Mr. Player.\nLet's get started." {
         font: "40px Arial",
         fill: "#ff0044",
         align: "center"
@@ -73,31 +73,29 @@ function updateText() {
 
 function actionOnClick () {
     
-    text.setText("Test.");
-    //updateText();
-    /*
+    //text.setText("Test.");
     if (step == 1)
     {
-      var text = "If you were a fruit or vegetable, what would you be, and why?";   
+      text.setText("If you were a fruit or vegetable, what would you be, and why?");   
     }
     if (step == 2)
     {
-      var text = "Why do you have interest in this company?";   
+      text.setText("Why do you have interest in this company?");   
     }
     if (step == 3)
     {
-      var text = "What on your resume would you say makes you most qualified for this job?";   
+      text.setText("What on your resume would you say makes you most qualified for this job?");   
     }
     if (step == 4)
     {
-      var text = "What is your biggest weakness?";   
+      text.setText("What is your biggest weakness?");   
     }
     if (step == 5)
     {
-      var text = "Where do you see yourself in 5 years?";   
+      text.setText("Where do you see yourself in 5 years?");   
     }
     if (step == 6)
     {
-      var text = "Kirk or Picard?";   
-    }*/
+      text.setText("Kirk or Picard?");   
+    }
 }
