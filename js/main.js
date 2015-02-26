@@ -121,6 +121,9 @@ function actionOnClick () {
     if (step === 1)
     {
       text.setText("If you were a fruit or vegetable, what would you be, and why?");   
+      buttonText1.setText("A pineapple.");
+      buttonText1.setText("A pineapple.");
+      buttonText1.setText("A pineapple.");
     }
     if (step === 2)
     {
