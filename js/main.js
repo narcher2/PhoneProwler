@@ -72,6 +72,7 @@ function updateText() {
 
 function actionOnClick () {
     
+    step++;
     text.setText(step);
     //updateText();
     /*
