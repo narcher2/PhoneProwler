@@ -73,9 +73,7 @@ function updateText() {
 function actionOnClick () {
     
     step++;
-    text.setText(step);
 
-    
     if (step = 1)
     {
       text.setText("If you were a fruit or vegetable, what would you be, and why?");   
