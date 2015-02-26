@@ -160,10 +160,18 @@ function actionOnClick () {
     }
     if (step === 6)
     {
-      text.setText("Kirk or Picard?" + step);   
+      text.setText("Kirk or Picard?");   
     buttonText1.setText("Kirk.");
       buttonText2.setText("Picard.");
       buttonText3.setText("Reynolds.");
       buttonText4.setText("What?");
+    }
+    if (step === 7)
+    {
+      text.setText("Alrighty, I think I've heard enough. We'll call you." + step);   
+    buttonText1.setText("Thank you, I hope you reached your expectations.");
+      buttonText2.setText("I'll be anxiously awating your call.");
+      buttonText3.setText("You know, even if I didn't get the job\n you can still call me and let me know\n like it's no big deal.");
+      buttonText4.setText("*Shake hand firmly* Thank you sir, I look forward to working with you.");
     }
 }
