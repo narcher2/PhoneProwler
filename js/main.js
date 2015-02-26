@@ -25,7 +25,7 @@ function create() {
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
     
-        text = game.add.text(game.world.centerX, game.world.centerY, "- You have clicked -\n0 times !", {
+        text = game.add.text(game.world.centerX, game.world.centerY,"Take a seat Mr. Player.\nLet's get started.", {
         font: "40px Arial",
         fill: "#ff0044",
         align: "center"
@@ -72,7 +72,7 @@ function updateText() {
 
 function actionOnClick () {
     
-    text.setText("Test.");
+    text.setText(step);
     //updateText();
     /*
     if (step == 1)
