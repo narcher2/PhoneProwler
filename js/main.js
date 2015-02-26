@@ -53,6 +53,8 @@ function actionOnClick () {
 
     step++;
     
+    text.setText("- You have clicked -\n" + step + " times !");
+    
     if (step == 1)
     {
       var text = "If you were a fruit or vegetable, what would you be, and why?";   
