@@ -64,7 +64,7 @@ function updateText() {
 
 function actionOnClick () {
     
-    updateText();
+    //updateText();
     /*
     if (step == 1)
     {
