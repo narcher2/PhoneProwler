@@ -27,8 +27,6 @@ function create() {
     
     var text = "Take a seat Mr. Player.\nLet's get started.";
     var style = { font: "40px Arial", fill: "#ff0044", align: "center" };
-    
-    text.anchor.setTo(0.5, 0.5);
 
     var t = game.add.text(game.world.centerX-300, 0, text, style);
     
@@ -53,7 +51,7 @@ function out() {
 
 function update() {
 
-    game.input.onDown.addOnce(updateText, this);
+    game.input.onDown.addOnce(updateText, text);
 
 }
 
