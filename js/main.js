@@ -11,7 +11,7 @@ var background;
 
 function create() {
 
-    var text = "It's nice to meet you Mr. Player.\nTake a seat, and we can get started.";
+    var text = "It's nice to meet you Mr. Johnson.\nTake a seat, and we can get started.";
     var style = { font: "44px Arial", fill: "#ff0044", align: "center" };
 
     var t = game.add.text(game.world.centerX-300, 0, text, style);
