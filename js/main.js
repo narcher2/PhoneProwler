@@ -122,27 +122,48 @@ function actionOnClick () {
     {
       text.setText("If you were a fruit or vegetable, what would you be, and why?");   
       buttonText1.setText("A pineapple.");
-      buttonText1.setText("A pineapple.");
-      buttonText1.setText("A pineapple.");
+      buttonText2.setText("A cactus, because I'm tough on the outside, but resourceful on the inside");
+      buttonText3.setText("Celery, because I burn more energy than I create.");
+      buttonText4.setText("A cat, meow.");
     }
     if (step === 2)
     {
       text.setText("Why do you have interest in this company?");   
+    buttonText1.setText("Ever since I was a little boy I've dreamed of working at this company.");
+      buttonText2.setText("My mom told me to apply because she wants me out of the house.");
+      buttonText3.setText("I heard you don't drug test.");
+      buttonText4.setText("This is the one company I can work for an honestly feel like I'm making the world better.");
     }
     if (step === 3)
     {
-      text.setText("What on your resume would you say makes you most qualified for this job?");   
+      text.setText("What on your resume would you say makes you most qualified for this job?");  
+      buttonText1.setText("My IQ of 160 makes me very intelligent and overqualified for this job.");
+      buttonText2.setText("My leadership skills in college can easily transition towards synergy in the workplace.");
+      buttonText3.setText("My synergetic attitude makes me right for this job.");
+      buttonText4.setText("My entire resume is just the word 'synergy' repeated over and over again.");
     }
     if (step === 4)
     {
       text.setText("What is your biggest weakness?");   
+        buttonText1.setText("My inability to work with others.");
+      buttonText2.setText("I work too hard for my own good.");
+      buttonText3.setText("My height.");
+      buttonText4.setText("I'm really lazy and often don't get things turned in on time.")
     }
     if (step === 5)
     {
-      text.setText("Where do you see yourself in 5 years?");   
+      text.setText("Where do you see yourself in 5 years?");
+    buttonText1.setText("Sitting in your chair, asking some young go-getter the same question.");
+      buttonText2.setText("At the head of this company.");
+      buttonText3.setText("I'll probably move on to bigger and better things, at a different company.");
+      buttonText4.setText("I'll probably have a kid and become a stay at home dad.");
     }
     if (step === 6)
     {
       text.setText("Kirk or Picard?" + step);   
+    buttonText1.setText("Kirk.");
+      buttonText2.setText("Picard.");
+      buttonText3.setText("Reynolds.");
+      buttonText4.setText("What?");
     }
 }
