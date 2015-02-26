@@ -66,7 +66,7 @@ function updateText() {
 function actionOnClick () {
     
     updateText();
-    
+    /*
     if (step == 1)
     {
       var text = "If you were a fruit or vegetable, what would you be, and why?";   
@@ -90,5 +90,5 @@ function actionOnClick () {
     if (step == 6)
     {
       var text = "Kirk or Picard?";   
-    }
+    }*/
 }
