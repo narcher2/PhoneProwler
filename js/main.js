@@ -9,11 +9,10 @@ function preload() {
 
 var button;
 var background;
-//var step;
 
 function create() {
     
-    //step = 0;
+    step = 0;
 
     game.stage.backgroundColor = '#182d3b';
 
@@ -39,34 +38,6 @@ function create() {
 
 function up() {
     console.log('button up', arguments);
-    
-    //step++;
-    
-    /*if (step == 1)
-    {
-      text.setText("If you were a fruit or vegetable, what would you be, and why?");   
-    }
-    if (step == 2)
-    {
-      text.setText("Why do you have interest in this company?");   
-    }
-    if (step == 3)
-    {
-     text.setText("What on your resume would you say makes you most qualified for this job?");   
-    }
-    if (step == 4)
-    {
-      text.setText("What is your biggest weakness?");   
-    }
-    if (step == 5)
-    {
-      text.setText("Where do you see yourself in 5 years?");   
-    }
-    if (step == 6)
-    {
-      text.setText("Kirk or Picard?");   
-    }
-    */
 }
 
 function over() {
@@ -77,8 +48,32 @@ function out() {
     console.log('button out');
 }
 
--function update() {
--
--    game.input.onDown.addOnce(updateText, this);
--
--}
+function actionOnClick () {
+
+    step++;
+    
+    if (step == 1)
+    {
+      var text = "If you were a fruit or vegetable, what would you be, and why?";   
+    }
+    if (step == 2)
+    {
+      var text = "Why do you have interest in this company?";   
+    }
+    if (step == 3)
+    {
+      var text = "What on your resume would you say makes you most qualified for this job?";   
+    }
+    if (step == 4)
+    {
+      var text = "What is your biggest weakness?";   
+    }
+    if (step == 5)
+    {
+      var text = "Where do you see yourself in 5 years?";   
+    }
+    if (step == 6)
+    {
+      var text = "Kirk or Picard?";   
+    }
+}
