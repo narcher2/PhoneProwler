@@ -24,6 +24,7 @@ function create() {
     music.play();
     
     step = 0;
+    page = 0;
 
     game.stage.backgroundColor = '#182d3b';
 
@@ -107,6 +108,7 @@ function create() {
 
 function up() {
     console.log('button up', arguments);
+    page++;
 }
 
 function over() {
@@ -133,6 +135,14 @@ function updateText() {
 function actionOnClick () {
     
     step++;
+    
+    if (page === 1)
+    {
+      buttonText1.setText("Kenny");
+      buttonText2.setText("Tyreece");
+      buttonText3.setText("The bae");
+      buttonText4.setText("Mom");
+    }
 
     if (step === 1)
     {
