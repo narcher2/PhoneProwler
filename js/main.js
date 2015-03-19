@@ -18,6 +18,8 @@ var button;
 var background;
 var step;
 var music;
+var page;
+var scroll;
 
 function create() {
     
