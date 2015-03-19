@@ -33,11 +33,19 @@ function create() {
 
     background = game.add.tileSprite(0, 0, 1200, 600, 'background');
     phone = game.add.sprite(0, 0, 'phone');
+    
+        hiddenbutton1 = game.add.button(170, 76, 'textboxblack', actionOnHidden1, this, 0, 0, 0);
+    
+        hiddenbutton2 = game.add.button(170, 174, 'textboxblack', actionOnHidden2, this, 0, 0, 0);
+    
+        hiddenbutton3 = game.add.button(170, 272, 'textboxblack', actionOnHidden3, this, 0, 0, 0);
+    
+        hiddenbutton4 = game.add.button(170, 370, 'textboxblack', actionOnHidden4, this, 0, 0, 0);
     //player = game.add.sprite(400, 500, 'ship');
     //phone = game.add.sprite( game.world.centerX, game.world.centerY, 'phone', assets/buttons/phonebackground.png');
     
     //textbox1 = game.add.button(170, 76, 'textboxblack', actionOnClick, this, 2, 1, 0);
-    textbox1 = game.add.tileSprite(170, 76, 835, 392, 'textboxblack');
+    //textbox1 = game.add.tileSprite(170, 76, 835, 392, 'textboxblack');
 
     button = game.add.button(170, 468, 'messages', actionOnClick, this, 0, 0, 1);
 
@@ -56,14 +64,6 @@ function create() {
     button3.onInputOver.add(over, this);
     button3.onInputOut.add(out, this);
     button3.onInputUp.add(up, this);
-    
-        hiddenbutton1 = game.add.button(170, 76, 'textboxblack', actionOnHidden1, this, 0, 0, 0);
-    
-        hiddenbutton2 = game.add.button(170, 174, 'textboxblack', actionOnHidden2, this, 0, 0, 0);
-    
-        hiddenbutton3 = game.add.button(170, 272, 'textboxblack', actionOnHidden3, this, 0, 0, 0);
-    
-        hiddenbutton4 =  game.add.button(170, 370, 'textboxblack', actionOnHidden4, this, 0, 0, 0);
     
     /*button4 = game.add.button(32, 540, 'button', actionOnClick, this, 2, 1, 0);
 
