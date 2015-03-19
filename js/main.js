@@ -10,7 +10,7 @@ function preload() {
     game.load.audio('chopin', 'assets/Prelude15.mp3');
     game.load.image('background','assets/background.png');
     game.load.image('textboxblack','assets/buttons/textboxwhite.png');
-    game.load.spritesheet('hidden','assets/buttons/hiddenlol.png');
+    game.load.spritesheet('hidden','assets/buttons/hiddenlol.png', 835, 98);
 
 
 }
