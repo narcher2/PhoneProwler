@@ -26,7 +26,7 @@ function create() {
     game.stage.backgroundColor = '#182d3b';
 
     background = game.add.tileSprite(0, 0, 800, 600, 'background');
-    phone = game.add.sprite(0, 0, 800, 600, 'phone', 'assets/buttons/phonebackground.png' );
+    phone = game.add.sprite(0, 0, 800, 600, 'phone');
     //phone = game.add.sprite( game.world.centerX, game.world.centerY, 'phone', assets/buttons/phonebackground.png');
 
     button = game.add.button(32, 400, 'button', actionOnClick, this, 2, 1, 0);
