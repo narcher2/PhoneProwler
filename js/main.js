@@ -112,7 +112,7 @@ function create() {
     buttonText2 = game.add.text(186, 174,"Tyrone", {
         font: "25px Arial",
         fill: "#000000",
-        align: "left"
+        align: "right"
     });
     
     buttonText3 = game.add.text(186, 272,"The Bae", {
@@ -124,7 +124,7 @@ function create() {
     buttonText4 = game.add.text(186, 370,"Mom", {
         font: "25px Arial",
         fill: "#000000",
-        align: "left"
+        align: "right"
     });
     
     //var buttonText1 = "Take a seat";
@@ -163,24 +163,78 @@ function updateText() {
 }
 
 function actionOnUp (){
-    scroll++;
+if (scroll > 0)
+{
+    scroll--;
+}
+    updateTexts();
 }
 
 function actionOnDown (){
-    scroll--;
+if (scroll < 5)
+{
+    scroll++;
+}
+    updateTexts();
+}
+
+function updateTexts(){
+    if (page === 1)
+    {
+        if (scroll === 0)
+        {
+      buttonText1.setText("Ey yo wassup");
+      buttonText2.setText("Not much mang, just chillin', watchu up to?");
+      buttonText3.setText("Not much, bout to kill this bitch.");
+      buttonText4.setText("WHAT");
+        }
+        if (scroll === 1)
+        {
+      buttonText1.setText("[Picture of a pizza]");
+      buttonText2.setText("All by yoself?");
+      buttonText3.setText("AWWWW YEAHHHHH");
+      buttonText4.setText("Selfish. Lemme have some homie.");
+        }
+        if (scroll === 2)
+        {
+      buttonText1.setText("Nah man, not after what hapened last time.");
+      buttonText2.setText("You know how I feel about onions on your half getting on my half.");
+      buttonText3.setText("Disrespectful smh.");
+      buttonText4.setText("C'mon homie, we've been friends since like the 8th grade.");
+        }
+        if (scroll === 3)
+        {
+      buttonText1.setText("YOU JUST GRADUATED 8TH GRADE");
+      buttonText2.setText("So don't I deserve a reward?");
+      buttonText3.setText("True money. We need to celebrate. Get yo ass over here.");
+      buttonText4.setText("Nah I'm not hungry.");
+        }
+    }
 }
 
 function actionOnHidden1 (){
+    if (page === 0)
+    {
     page = 1;
+    }
 }
 function actionOnHidden2 (){
+    if (page === 0)
+    {
     page = 2;
+    }
 }
 function actionOnHidden3 (){
+    if (page === 0)
+    {
     page = 3;
+    }
 }
 function actionOnHidden4 (){
+    if (page === 0)
+    {
     page = 4;
+    }
 }
 
 function actionOnClick () {
