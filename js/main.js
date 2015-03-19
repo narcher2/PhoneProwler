@@ -4,7 +4,8 @@ function preload() {
 
     game.load.spritesheet('button', 'assets/button_sprite_sheet.png', 512, 48);
     game.load.spritesheet('messages', 'assets/buttons/textbutton.png', 64, 64);
-    //game.load.spritesheet('scrolldown', 'assets/buttons/downbutton.png', 64, 64);
+    game.load.spritesheet('scrolldown', 'assets/buttons/downbutton.png', 64, 64);
+    game.load.spritesheet('scrollup', 'assets/buttons/downbutton.png', 64, 64);
     game.load.image('phone','assets/buttons/phonebackground.png');
     game.load.audio('chopin', 'assets/Prelude15.mp3');
     game.load.image('background','assets/background.png');
@@ -44,19 +45,19 @@ function create() {
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
     
-    button2 = game.add.button(298, 468, 'messages', actionOnUp, this, 0, 0, 1);
+    button2 = game.add.button(298, 468, 'scrolldown', actionOnUp, this, 0, 0, 1);
 
     button2.onInputOver.add(over, this);
     button2.onInputOut.add(out, this);
     button2.onInputUp.add(up, this);
     
-    //button3 = game.add.button(32, 496, 'button', actionOnClick, this, 2, 1, 0);
-/*
+    button3 = game.add.button(362, 468, 'scrollup', actionOnClick, this, 2, 1, 0);
+    
     button3.onInputOver.add(over, this);
     button3.onInputOut.add(out, this);
     button3.onInputUp.add(up, this);
     
-    //button4 = game.add.button(32, 540, 'button', actionOnClick, this, 2, 1, 0);
+    button4 = game.add.button(32, 540, 'button', actionOnClick, this, 2, 1, 0);
 
     button4.onInputOver.add(over, this);
     button4.onInputOut.add(out, this);
