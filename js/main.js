@@ -7,7 +7,7 @@ function preload() {
     game.load.image('phone','assets/buttons/phonebackground.png');
     game.load.audio('chopin', 'assets/Prelude15.mp3');
     game.load.image('background','assets/background.png');
-    game.load.image('textboxblack','assets/buttons/textbox.png');
+    game.load.image('textboxblack','assets/buttons/textboxwhite.png');
 
 
 }
