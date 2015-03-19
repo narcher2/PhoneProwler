@@ -42,7 +42,7 @@ function create() {
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
     
-    //button2 = game.add.button(32, 448, 'button', actionOnClick, this, 2, 1, 0);
+    /*button2 = game.add.button(32, 448, 'button', actionOnClick, this, 2, 1, 0);
 
     button2.onInputOver.add(over, this);
     button2.onInputOut.add(out, this);
@@ -58,7 +58,7 @@ function create() {
 
     button4.onInputOver.add(over, this);
     button4.onInputOut.add(out, this);
-    button4.onInputUp.add(up, this);
+    button4.onInputUp.add(up, this);*/
     
         text = game.add.text(game.world.centerX, game.world.centerY,"Take a seat Mr. Player.\nLet's get started.", {
         font: "40px Arial",
