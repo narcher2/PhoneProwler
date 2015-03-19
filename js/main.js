@@ -37,7 +37,7 @@ function create() {
 
     button = game.add.button(170, 468, 'messages', actionOnClick, this, 1, 0);
 
-    button.onInputOver.add(over, this);
+    //button.onInputOver.add(over, this);
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
     
