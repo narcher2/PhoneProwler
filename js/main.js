@@ -25,6 +25,7 @@ function create() {
     
     step = 0;
     page = 0;
+    scroll = 0;
 
     game.stage.backgroundColor = '#182d3b';
 
