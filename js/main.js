@@ -6,7 +6,7 @@ function preload() {
     game.load.image('phone','assets/buttons/phonebackground.png');
     game.load.audio('chopin', 'assets/Prelude15.mp3');
     game.load.image('background','assets/background.png');
-    game.load.image('textboxblack','assets/buttons/tealtextbox.png');
+    game.load.image('textboxblack','assets/buttons/textbox.png');
 
 
 }
@@ -32,7 +32,7 @@ function create() {
     //phone = game.add.sprite( game.world.centerX, game.world.centerY, 'phone', assets/buttons/phonebackground.png');
     
     //textbox1 = game.add.button(170, 76, 'textboxblack', actionOnClick, this, 2, 1, 0);
-    textbox1 = game.add.sprite(0, 0, 'textboxblack');
+    textbox1 = game.add.sprite(170, 76, 'textboxblack');
 
     button = game.add.button(32, 400, 'button', actionOnClick, this, 2, 1, 0);
 
