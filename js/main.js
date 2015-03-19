@@ -36,25 +36,25 @@ function create() {
     background = game.add.tileSprite(0, 0, 1200, 600, 'background');
     phone = game.add.sprite(0, 0, 'phone');
     
-        hiddenbutton1 = game.add.button(170, 76, 'textboxblack', actionOnHidden1, this, 0, 0, 0);
+        hiddenbutton1 = game.add.button(170, 76, 'textboxblack', actionOnHidden1, this, 0, 0, 1);
         
         hiddenbutton1.onInputOver.add(over, this);
         hiddenbutton1.onInputOut.add(out, this);
         hiddenbutton1.onInputUp.add(up, this);
     
-        hiddenbutton2 = game.add.button(170, 174, 'textboxblack', actionOnHidden2, this, 0, 0, 0);
+        hiddenbutton2 = game.add.button(170, 174, 'textboxblack', actionOnHidden2, this, 0, 0, 1);
         
         hiddenbutton2.onInputOver.add(over, this);
         hiddenbutton2.onInputOut.add(out, this);
         hiddenbutton2.onInputUp.add(up, this);
     
-        hiddenbutton3 = game.add.button(170, 272, 'textboxblack', actionOnHidden3, this, 0, 0, 0);
+        hiddenbutton3 = game.add.button(170, 272, 'textboxblack', actionOnHidden3, this, 0, 0, 1);
         
         hiddenbutton3.onInputOver.add(over, this);
         hiddenbutton3.onInputOut.add(out, this);
         hiddenbutton3.onInputUp.add(up, this);
     
-        hiddenbutton4 = game.add.button(170, 370, 'textboxblack', actionOnHidden4, this, 0, 0, 0);
+        hiddenbutton4 = game.add.button(170, 370, 'textboxblack', actionOnHidden4, this, 0, 0, 1);
         
         hiddenbutton4.onInputOver.add(over, this);
         hiddenbutton4.onInputOut.add(out, this);
