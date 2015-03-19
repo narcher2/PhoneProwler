@@ -43,7 +43,7 @@ function create() {
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
     
-    /*button2 = game.add.button(32, 448, 'button', actionOnClick, this, 2, 1, 0);
+    button2 = game.add.button(298 468, 'button', actionOnUp, this, 2, 1, 0);
 
     button2.onInputOver.add(over, this);
     button2.onInputOut.add(out, this);
@@ -131,6 +131,10 @@ function updateText() {
     //page++;
     text.setText("- You have clicked -\n" + step + " times !");
 
+}
+
+function actionOnUp (){
+    scroll++;
 }
 
 function actionOnClick () {
