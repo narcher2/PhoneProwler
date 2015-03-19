@@ -128,6 +128,7 @@ function update() {
 function updateText() {
 
     step++;
+    page++;
     text.setText("- You have clicked -\n" + step + " times !");
 
 }
@@ -137,7 +138,7 @@ function actionOnClick () {
     //step++;
     page++;
     
-    if (page > 0)
+    if (page === 1)
     {
       buttonText1.setText("Kenny");
       buttonText2.setText("Tyreece");
