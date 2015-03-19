@@ -3,7 +3,7 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: p
 function preload() {
 
     game.load.spritesheet('button', 'assets/button_sprite_sheet.png', 512, 48);
-    game.load.image('phone','assets//buttons/phonebackground.png');
+    game.load.image('phone','assets/buttons/phonebackground.png');
     game.load.audio('chopin', 'assets/Prelude15.mp3');
     game.load.image('background','assets/background.png');
 
@@ -26,7 +26,8 @@ function create() {
     game.stage.backgroundColor = '#182d3b';
 
     background = game.add.tileSprite(0, 0, 800, 600, 'background');
-    background = game.add.sprite(0, 0, 800, 600, 'phonebackground');
+    phone = game.add.sprite(0, 0, 800, 600, 'phone', assets/buttons/phonebackground.png' );
+    //phone = game.add.sprite( game.world.centerX, game.world.centerY, 'phone', assets/buttons/phonebackground.png');
 
     button = game.add.button(32, 400, 'button', actionOnClick, this, 2, 1, 0);
 
