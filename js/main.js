@@ -133,9 +133,9 @@ function updateText() {
 
 }
 
-function actionOnUp (){
+/*function actionOnUp (){
     scroll++;
-}
+}*/
 
 function actionOnClick () {
     
