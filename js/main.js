@@ -369,6 +369,7 @@ function actionOnHidden4 (){
 function actionOnClick () {
     
     page = 0;
+    scroll = 0;
     
       buttonText1.setText("Kenny");
       buttonText2.setText("Tyreece");
