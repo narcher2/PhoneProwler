@@ -135,6 +135,7 @@ function updateText() {
 function actionOnClick () {
     
     step++;
+    page++;
     
     if (page > 0)
     {
