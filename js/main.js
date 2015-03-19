@@ -60,11 +60,11 @@ function create() {
     button4.onInputOut.add(out, this);
     button4.onInputUp.add(up, this);*/
     
-        text = game.add.text(game.world.centerX, game.world.centerY,"Take a seat Mr. Player.\nLet's get started.", {
+   /*     text = game.add.text(game.world.centerX, game.world.centerY,"Take a seat Mr. Player.\nLet's get started.", {
         font: "40px Arial",
         fill: "#ff0044",
         align: "center"
-    });
+    });*/
 
     text.anchor.setTo(0.5, 0.5);
     
