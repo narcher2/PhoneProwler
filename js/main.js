@@ -108,7 +108,6 @@ function create() {
 
 function up() {
     console.log('button up', arguments);
-    page++;
 }
 
 function over() {
@@ -117,6 +116,7 @@ function over() {
 
 function out() {
     console.log('button out');
+    page++;
 }
 
 function update() {
@@ -136,7 +136,7 @@ function actionOnClick () {
     
     step++;
     
-    if (page === 1)
+    if (page > 0)
     {
       buttonText1.setText("Kenny");
       buttonText2.setText("Tyreece");
