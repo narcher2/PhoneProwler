@@ -135,10 +135,10 @@ function updateText() {
 
 function actionOnClick () {
     
-    //step++;
+    step++;
     page++;
     
-    if (page === 1)
+    if (step === 1)
     {
       buttonText1.setText("Kenny");
       buttonText2.setText("Tyreece");
@@ -146,7 +146,7 @@ function actionOnClick () {
       buttonText4.setText("Mom");
     }
 
-    if (step === 1)
+    if (step === 2)
     {
       text.setText("If you were a fruit or vegetable,\nwhat would you be, and why?");   
       buttonText1.setText("A pineapple.");
