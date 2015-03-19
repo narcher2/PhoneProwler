@@ -51,11 +51,19 @@ function create() {
     button2.onInputOut.add(out, this);
     button2.onInputUp.add(up, this);
     
-    button3 = game.add.button(362, 468, 'scrollup', actionOnClick, this, 2, 1, 0);
+    button3 = game.add.button(362, 468, 'scrollup', actionOnClick, this, 0, 0, 1);
     
     button3.onInputOver.add(over, this);
     button3.onInputOut.add(out, this);
     button3.onInputUp.add(up, this);
+    
+        hiddenbutton1 = game.add.button(170, 76, 'textboxblack', actionOnHidden1, this, 0, 0, 0);
+    
+        hiddenbutton2 = game.add.button(170, 174, 'textboxblack', actionOnHidden2, this, 0, 0, 0);
+    
+        hiddenbutton3 = game.add.button(170, 272, 'textboxblack', actionOnHidden3, this, 0, 0, 0);
+    
+        hiddenbutton4 =  game.add.button(170, 370, 'textboxblack', actionOnHidden4, this, 0, 0, 0);
     
     /*button4 = game.add.button(32, 540, 'button', actionOnClick, this, 2, 1, 0);
 
