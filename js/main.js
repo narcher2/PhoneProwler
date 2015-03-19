@@ -35,7 +35,7 @@ function create() {
     //textbox1 = game.add.button(170, 76, 'textboxblack', actionOnClick, this, 2, 1, 0);
     textbox1 = game.add.tileSprite(170, 76, 835, 392, 'textboxblack');
 
-    button = game.add.button(170, 468, 'messages', actionOnClick, this, 1, 0, 1);
+    button = game.add.button(170, 468, 'messages', actionOnClick, this, 0, 0, 1);
 
     button.onInputOver.add(over, this);
     button.onInputOut.add(out, this);
