@@ -53,13 +53,13 @@ function create() {
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
     
-    button2 = game.add.button(298, 468, 'scrolldown', actionOnUp, this, 0, 0, 1);
+    button2 = game.add.button(298, 468, 'scrolldown', actionOnDown, this, 0, 0, 1);
 
     button2.onInputOver.add(over, this);
     button2.onInputOut.add(out, this);
     button2.onInputUp.add(up, this);
     
-    button3 = game.add.button(362, 468, 'scrollup', actionOnClick, this, 0, 0, 1);
+    button3 = game.add.button(362, 468, 'scrollup', actionOnUp, this, 0, 0, 1);
     
     button3.onInputOver.add(over, this);
     button3.onInputOut.add(out, this);
@@ -147,73 +147,31 @@ function actionOnUp (){
     scroll++;
 }
 
+function actionOnDown (){
+    scroll--;
+}
+
+function actionOnHidden1 (){
+    page = 1;
+}
+function actionOnHidden2 (){
+    page = 2;
+}
+function actionOnHidden3 (){
+    page = 3;
+}
+function actionOnHidden4 (){
+    page = 4;
+}
+
 function actionOnClick () {
     
-    step++;
-    //page++;
+    page = 0;
     
-    if (step === 1)
-    {
       buttonText1.setText("Kenny");
       buttonText2.setText("Tyreece");
       buttonText3.setText("The bae");
       buttonText4.setText("Mom");
-    }
 
-    if (step === 2)
-    {
-      text.setText("If you were a fruit or vegetable,\nwhat would you be, and why?");   
-      buttonText1.setText("A pineapple.");
-      buttonText2.setText("A cactus, because I'm tough on the outside,\nbut resourceful on the inside");
-      buttonText3.setText("Celery, because I burn more energy than I create.");
-      buttonText4.setText("A cat, meow.");
-    }
-    if (step === 2)
-    {
-      text.setText("Why do you have interest in this company?");   
-    buttonText1.setText("Ever since I was a little boy I've dreamed of working at this company.");
-      buttonText2.setText("My mom told me to apply because she wants me out of the house.");
-      buttonText3.setText("I heard you don't drug test.");
-      buttonText4.setText("This is the one company I can work for and\n honestly feel like I'm making the world better.");
-    }
-    if (step === 3)
-    {
-      text.setText("What on your resume would you say makes\nyou most qualified for this job?");  
-      buttonText1.setText("My IQ of 160 makes me very intelligent and overqualified for this job.");
-      buttonText2.setText("My leadership skills in college can \neasily transition towards synergy in the workplace.");
-      buttonText3.setText("My synergetic attitude makes me right for this job.");
-      buttonText4.setText("My entire resume is just the word 'synergy' repeated over and over again.");
-    }
-    if (step === 4)
-    {
-      text.setText("What is your biggest weakness?");   
-        buttonText1.setText("My inability to work with others.");
-      buttonText2.setText("I work too hard for my own good.");
-      buttonText3.setText("My height.");
-      buttonText4.setText("I'm really lazy and often don't get\n things turned in on time.")
-    }
-    if (step === 5)
-    {
-      text.setText("Where do you see yourself in 5 years?");
-    buttonText1.setText("Sitting in your chair, asking\nsome young go-getter the same question.");
-      buttonText2.setText("At the head of this company.");
-      buttonText3.setText("I'll probably move on to bigger and better things,\n at a different company.");
-      buttonText4.setText("I'll probably have a kid and\nbecome a stay at home dad.");
-    }
-    if (step === 6)
-    {
-      text.setText("Kirk or Picard?");   
-    buttonText1.setText("Kirk.");
-      buttonText2.setText("Picard.");
-      buttonText3.setText("Reynolds.");
-      buttonText4.setText("What?");
-    }
-    if (step === 7)
-    {
-      text.setText("Alrighty, I think I've heard enough. We'll call you." + step);   
-    buttonText1.setText("Thank you, I hope you reached your expectations.");
-      buttonText2.setText("I'll be anxiously awating your call.");
-      buttonText3.setText("You know, even if I didn't get the job\n you can still call me and let me know\n like it's no big deal.");
-      buttonText4.setText("*Shake hand firmly* Thank you sir, I look forward to working with you.");
-    }
+    
 }
