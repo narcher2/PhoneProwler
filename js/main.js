@@ -216,6 +216,7 @@ function actionOnHidden1 (){
     if (page === 0)
     {
     page = 1;
+    updateTexts();
     }
 }
 function actionOnHidden2 (){
