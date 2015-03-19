@@ -116,7 +116,6 @@ function over() {
 
 function out() {
     console.log('button out');
-    page++;
 }
 
 function update() {
