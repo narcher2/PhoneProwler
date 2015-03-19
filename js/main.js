@@ -3,7 +3,7 @@ var game = new Phaser.Game(1200, 600, Phaser.AUTO, 'phaser-example', { preload: 
 function preload() {
 
     game.load.spritesheet('button', 'assets/button_sprite_sheet.png', 512, 48);
-    game.load.spritesheet('messages', 'assets/buttons/textbuttonsheet.png', 64, 64);
+    game.load.spritesheet('messages', 'assets/buttons/textbutton.png', 64, 64);
     game.load.image('phone','assets/buttons/phonebackground.png');
     game.load.audio('chopin', 'assets/Prelude15.mp3');
     game.load.image('background','assets/background.png');
