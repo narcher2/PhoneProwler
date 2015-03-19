@@ -351,18 +351,21 @@ function actionOnHidden2 (){
     if (page === 0)
     {
     page = 2;
+    updateTexts();
     }
 }
 function actionOnHidden3 (){
     if (page === 0)
     {
     page = 3;
+    updateTexts();
     }
 }
 function actionOnHidden4 (){
     if (page === 0)
     {
     page = 4;
+    updateTexts();
     }
 }
 
