@@ -129,7 +129,7 @@ function updateText() {
 
     step++;
     //page++;
-    text.setText("- You have clicked -\n" + step + " times !");
+    //text.setText("- You have clicked -\n" + step + " times !");
 
 }
 
