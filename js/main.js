@@ -67,7 +67,7 @@ function create() {
         align: "center"
     });*/
 
-    text.anchor.setTo(0.5, 0.5);
+    //text.anchor.setTo(0.5, 0.5);
     
     /*var text = "Take a seat Mr. Player.\nLet's get started.";
     var style = { font: "40px Arial", fill: "#ff0044", align: "center" };
