@@ -74,25 +74,25 @@ function create() {
     var t = game.add.text(game.world.centerX-300, 0, text, style);
     */
     
-    buttonText1 = game.add.text(186, 76,"Take a seat", {
+    buttonText1 = game.add.text(186, 76,"Kenny", {
         font: "25px Arial",
         fill: "#000000",
         align: "left"
     });
     
-    buttonText2 = game.add.text(186, 174,"Take a seat", {
+    buttonText2 = game.add.text(186, 174,"Tyrone", {
         font: "25px Arial",
         fill: "#000000",
         align: "left"
     });
     
-    buttonText3 = game.add.text(186, 272,"Take a seat", {
+    buttonText3 = game.add.text(186, 272,"The Bae", {
         font: "25px Arial",
         fill: "#000000",
         align: "left"
     });
     
-    buttonText4 = game.add.text(186, 370,"Take a seat", {
+    buttonText4 = game.add.text(186, 370,"Mom", {
         font: "25px Arial",
         fill: "#000000",
         align: "left"
