@@ -240,6 +240,103 @@ function updateTexts(){
       buttonText3.setText("CATCH ME IF YOU CAN BOI. EVEN IF YOU KILL ME YO WIFE WAS WORTH IT");
       buttonText4.setText("*chuck-chuck*");
         }
+        if (scroll === 4)
+        {
+      buttonText1.setText("What was that?");
+      buttonText2.setText("The sound of my shotgun pumping.");
+      buttonText3.setText("AW SHNAP");
+      buttonText4.setText("*chuck-chuck*");
+        }
+    }
+    if (page === 3)
+    {
+        if (scroll === 0)
+        {
+      buttonText1.setText("Hey.");
+      buttonText2.setText("Hey.");
+      buttonText3.setText("Do u like me?");
+      buttonText4.setText("idk do u like me?");
+        }
+        if (scroll === 1)
+        {
+      buttonText1.setText("idk do u like me tho?");
+      buttonText2.setText("idk wanna come over and watch Netflix?");
+      buttonText3.setText("omg yes");
+      buttonText4.setText("k i'll make popcorn");
+        }
+        if (scroll === 2)
+        {
+      buttonText1.setText("bae");
+      buttonText2.setText("Chuck");
+      buttonText3.setText("bae");
+      buttonText4.setText("Chuck");
+        }
+        if (scroll === 3)
+        {
+      buttonText1.setText("Will you love me 4ever?");
+      buttonText2.setText("OMG");
+      buttonText3.setText("Well???");
+      buttonText4.setText("No.");
+        }
+        if (scroll === 4)
+        {
+      buttonText1.setText("Wow okay hoe w/e I didn't love you anyway w/e it's w/e.");
+      buttonText2.setText("...");
+      buttonText3.setText("Wow okay don't respond w/e it's k w/e.");
+      buttonText4.setText("Omg bae no I meant to say no because I will luv u 5ever");
+        }
+        if (scroll === 5)
+        {
+      buttonText1.setText("Will you marry me?");
+      buttonText2.setText(" ");
+      buttonText3.setText(" ");
+      buttonText4.setText(" ");
+        }
+    }
+    if (page === 4)
+    {
+        if (scroll === 0)
+        {
+      buttonText1.setText(" ");
+      buttonText2.setText("Happy birthday!");
+      buttonText3.setText("Thanks mom.");
+      buttonText4.setText("Charles come take the garbage out.");
+        }
+        if (scroll === 1)
+        {
+      buttonText1.setText("...");
+      buttonText2.setText("Charles did you get a job yet?");
+      buttonText3.setText("stop hassling me mom unless you want to catch these hands.");
+      buttonText4.setText("Dinner's on the table.");
+        }
+        if (scroll === 2)
+        {
+      buttonText1.setText("Can I have a friend over?");
+      buttonText2.setText("What's her name?");
+      buttonText3.setText("I don't have a girlfriend mom. It's Tyrone.");
+      buttonText4.setText("No.");
+        }
+        if (scroll === 3)
+        {
+      buttonText1.setText("Where did you put the mayo?");
+      buttonText2.setText("idk");
+      buttonText3.setText("...");
+      buttonText4.setText("I need you to dirve me to the hospital my ulcer is hurting again.");
+        }
+        if (scroll === 4)
+        {
+      buttonText1.setText("Mom I'm locked out answer the door.");
+      buttonText2.setText("I'm in New York, the key is under the mat, dinner is in the oven.");
+      buttonText3.setText("Thx when are you coming back?");
+      buttonText4.setText("Three days.");
+        }
+        if (scroll === 5)
+        {
+      buttonText1.setText(" ");
+      buttonText2.setText("You really need to clean your room Charles.");
+      buttonText3.setText("Quit hassling me ma I got a lot on my mind.");
+      buttonText4.setText("If I can bury Tyrone's body for you, you can at least clean your room like a grown man.");
+        }
     }
 }
 
