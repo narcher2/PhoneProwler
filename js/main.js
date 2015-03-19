@@ -44,11 +44,11 @@ function create() {
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
     
-    /*button2 = game.add.button(298 468, 'messages', actionOnClick, this, 0, 0, 1);
+    button2 = game.add.button(298, 468, 'messages', actionOnUp, this, 0, 0, 1);
 
     button2.onInputOver.add(over, this);
     button2.onInputOut.add(out, this);
-    button2.onInputUp.add(up, this);*/
+    button2.onInputUp.add(up, this);
     
     //button3 = game.add.button(32, 496, 'button', actionOnClick, this, 2, 1, 0);
 /*
@@ -134,9 +134,9 @@ function updateText() {
 
 }
 
-/*function actionOnUp (){
+function actionOnUp (){
     scroll++;
-}*/
+}
 
 function actionOnClick () {
     
