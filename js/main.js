@@ -112,7 +112,7 @@ function create() {
     buttonText2 = game.add.text(186, 174,"Tyrone", {
         font: "25px Arial",
         fill: "#000000",
-        align: "right"
+        align: "left"
     });
     
     buttonText3 = game.add.text(186, 272,"The Bae", {
@@ -124,7 +124,7 @@ function create() {
     buttonText4 = game.add.text(186, 370,"Mom", {
         font: "25px Arial",
         fill: "#000000",
-        align: "right"
+        align: "left"
     });
     
     //var buttonText1 = "Take a seat";
@@ -183,7 +183,7 @@ function updateTexts(){
     {
         if (scroll === 0)
         {
-      buttonText1.setText("Ey yo wassup");
+      buttonText1.setText("Ey yo wassup Kenny");
       buttonText2.setText("Not much mang, just chillin', watchu up to?");
       buttonText3.setText("Not much, bout to kill this bitch.");
       buttonText4.setText("WHAT");
@@ -208,6 +208,37 @@ function updateTexts(){
       buttonText2.setText("So don't I deserve a reward?");
       buttonText3.setText("True money. We need to celebrate. Get yo ass over here.");
       buttonText4.setText("Nah I'm not hungry.");
+        }
+    }
+    if (page === 2)
+    {
+        if (scroll === 0)
+        {
+      buttonText1.setText(" ");
+      buttonText2.setText("ey, its Tyrone.");
+      buttonText3.setText("Eyy, what you been up to man?");
+      buttonText4.setText("u know, gettin money; gettin that street cred");
+        }
+        if (scroll === 1)
+        {
+      buttonText1.setText("True, what kind of bread you cookin'?");
+      buttonText2.setText("I decided to diversify my bonds and put a cool ten thou in my IRA.");
+      buttonText3.setText("True, how them girls lookin'?");
+      buttonText4.setText("Rowena and I are 10 years strong, we gettin' a third kid in July. Ima name him Chuck.");
+        }
+        if (scroll === 2)
+        {
+      buttonText1.setText("Shit mang, I'm honored.");
+      buttonText2.setText("You should be. He's named after his father.");
+      buttonText3.setText("...");
+      buttonText4.setText("Got the test back today. You just had to slam my wife, didn't you chuck?");
+        }
+        if (scroll === 3)
+        {
+      buttonText1.setText("SMH I'm out of here, peace.");
+      buttonText2.setText("YOU CANT RUN FROM ME HOMIE IM GONNA GETCHU");
+      buttonText3.setText("CATCH ME IF YOU CAN BOI. EVEN IF YOU KILL ME YO WIFE WAS WORTH IT");
+      buttonText4.setText("*chuck-chuck*");
         }
     }
 }
