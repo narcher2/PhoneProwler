@@ -64,7 +64,7 @@ function create() {
     //phone = game.add.sprite( game.world.centerX, game.world.centerY, 'phone', assets/buttons/phonebackground.png');
     
     //textbox1 = game.add.button(170, 76, 'textboxblack', actionOnClick, this, 2, 1, 0);
-    textbox1 = game.add.tileSprite(170, 76, 835, 392, 'textboxblack');
+    //textbox1 = game.add.tileSprite(170, 76, 835, 392, 'textboxblack');
 
     button = game.add.button(170, 468, 'messages', actionOnClick, this, 0, 0, 1);
 
